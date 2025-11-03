@@ -1,0 +1,32 @@
+export default function Search() {
+  return (
+    <div className="">
+      <div className="search-container">
+        <p>Search</p>
+        <input
+          type="text"
+          placeholder="Search Movies..."
+          className="border-2 rounded-3xl h-10 border-teal-400 pl-3 mt-2 mb-2 w-100"
+        />
+      </div>
+      <div className="year-input flex justify-between">
+        <div className="flex-col">
+          <p>Min year</p>
+          <input
+            type="text"
+            placeholder="Enter Year..."
+            className="border-2 rounded-3xl h-10 border-teal-400 pl-3 mt-2"
+          />
+        </div>
+        <div className="year-input ml-4">
+          <p>Max year</p>
+          <input
+            type="text"
+            placeholder="Enter Year..."
+            className="border-2 rounded-3xl h-10 border-teal-400 pl-3 mt-2"
+          />
+        </div>
+      </div>
+    </div>
+  );
+}
