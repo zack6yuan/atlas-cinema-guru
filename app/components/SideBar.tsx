@@ -25,6 +25,10 @@ export default function SideBar() {
           </a>
         </div>
       </div>
+      <div className="latest-activities bg-teal-400 text-center h-full pt-3 ml-5 mr-5 rounded-lg">
+        <p className="pb-3">Latest Activities</p>
+        <p className="text-left ml-2 mr-2">10/2/1014, 5:11:17 PM Added <span className="font-bold">Before the Dawn</span> to watch later</p>
+      </div>
     </div>
   );
 }
