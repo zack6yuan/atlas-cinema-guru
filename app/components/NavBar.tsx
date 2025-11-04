@@ -9,7 +9,7 @@ export default function NavBar() {
       </div>
       <div className="flex">
         <p>Welcome zack.yuan@atlasstudents.com</p>
-        <a href="">
+        <a href="../login">
           <p className="ml-5 mr-5">Logout</p>
         </a>
       </div>

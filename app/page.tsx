@@ -1,6 +1,7 @@
 import NavBar from "./components/NavBar";
 import Search from "./components/Search";
 import SideBar from "./components/SideBar";
+import Genres from "./components/Genres";
 
 export default async function Page() {
   return (
@@ -8,6 +9,7 @@ export default async function Page() {
         <NavBar />
         <SideBar />
         <Search />
+        <Genres />
     </div>
   );
 }
