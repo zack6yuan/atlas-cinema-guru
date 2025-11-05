@@ -1,6 +1,5 @@
 "use client"
 import { useEffect } from "react";
-import { FlashList } from "@shopify/flash-list";
 
 export default function MovieTile() {
     useEffect(() => {
@@ -16,6 +15,8 @@ export default function MovieTile() {
         fetchMovieData();
     }, [])
     return (
-        <FlashList></FlashList>
+        <div className="">
+            Fetching Movies...
+        </div>
     )
 }
