@@ -1,6 +1,10 @@
+import { auth } from "@/auth";
 import film from "../../assets/film.png";
 
-export default function NavBar() {
+export default async function NavBar() {
+    const session = await auth();
+    if (!session?.user) return null;
+    if (!session.user.email) return null;
   return (
     <div className="bg-teal-400 text-blue-950 w-full h-15 flex justify-between items-center fixed top-0">
       <div className="flex ml-3">
@@ -8,8 +12,8 @@ export default function NavBar() {
         <h1 className="text-2xl font-bold">Cinema Guru</h1>
       </div>
       <div className="flex">
-        <p>Welcome zack.yuan@atlasstudents.com</p>
-        <a href="../login">
+        <p>Welcome {session.user.email}</p>
+        <a href="">
           <p className="ml-5 mr-5">Logout</p>
         </a>
       </div>
