@@ -8,8 +8,10 @@ export default async function Page() {
     <div className="flex items-center justify-center h-screen">
         <NavBar />
         <SideBar />
-        <Search />
-        <Genres />
+        <div className="flex justify-between w-full ml-40 mr-40 -mt-150">
+            <Search />
+            <Genres />
+        </div>
     </div>
   );
 }
