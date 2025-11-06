@@ -13,7 +13,7 @@ export default async function NavBar() {
       </div>
       <div className="flex">
         <p>Welcome {session.user.email}</p>
-        <a href="">
+        <a href="/api/auth/signin">
           <p className="ml-5 mr-5">Logout</p>
         </a>
       </div>
