@@ -1,7 +1,17 @@
 "use client"
-// import { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 
 export default function Genres() {
+
+    const [color, setColor] = useState('transparent')
+
+    const changeColor = () => {
+        if (color === 'transparent') {
+            setColor('teal');
+        } else {
+            setColor('transparent');
+        }
+    }
 
   return (
     <div className="">
@@ -10,7 +20,7 @@ export default function Genres() {
       </div>
       <div className="">
         <div className="flex mb-4">
-          <button className="flex items-center cursor-pointer h-10 mr-2 p-3 border-2 rounded-full border-teal-400">
+          <button className="flex items-center cursor-pointer h-10 mr-2 p-3 border-2 rounded-full border-teal-400" style={{backgroundColor: color}} onClick={changeColor}>
             <p>Romance</p>
           </button>
           <button className="flex items-center cursor-pointer h-10  mr-2 p-3 border-2 rounded-full border-teal-400">
