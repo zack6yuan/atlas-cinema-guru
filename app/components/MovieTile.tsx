@@ -1,12 +1,16 @@
 "use client"
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
+import placeholder from "../../assets/placeholder.svg";
 
 export default function MovieTile() {
+    const [movieData, setMovieData] = useState(null);
+
     useEffect(() => {
         const fetchMovieData = async () => {
             try {
                 const response = await fetch("/api/titles?page=1&minYear=2023&maxYear=2024&genres=Sci-Fi,Mystery");
                 const data = await response.json();
+                setMovieData(data);
                 console.log(data);
             } catch (err) {
                 console.error(err);
@@ -14,9 +18,21 @@ export default function MovieTile() {
         }
         fetchMovieData();
     }, [])
+
+    if (!movieData) {
+        return (
+            <div className="">
+                <p>Movie data not found</p>
+            </div>
+        )
+    }
+
     return (
-        <div className="">
-            Fetching Movies...
+        <div className="w-80 h-80 -ml-439">
+            <img
+                src={placeholder}
+                alt="placeholder"
+            />
         </div>
     )
 }

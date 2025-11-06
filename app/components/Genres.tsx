@@ -14,7 +14,7 @@ export default function Genres() {
       <div className="flex row">
         <div className="col mr-2 p-3 border-2 rounded-full border-teal-400 opacity-100"><p>Fantasy</p></div>
         <div className="col mr-2 p-3 border-2 rounded-full border-teal-400"><p>Thriller</p></div>
-        <div className="col mr-2 p-3 border-2 rounded-full border-teal-400"><p>Western</p></div>
+        <div className="col mr-2 p-6 border-2 rounded-full border-teal-400"><p>Western</p></div>
         <div className="col mr-2 p-3 border-2 rounded-full border-teal-400"><p>Sci-Fi</p></div>
         <div className="col p-3 border-2 rounded-full border-teal-400"><p>Adventure</p></div>
       </div>
