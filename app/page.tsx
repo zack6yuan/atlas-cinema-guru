@@ -16,6 +16,7 @@ export default function Page() {
         </div>
         <div className="">
             <MovieTile />
+            <p className="-ml-170">images for the movie covers are in /public/images</p>
         </div>
     </div>
   );

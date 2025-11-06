@@ -22,13 +22,13 @@ export default function MovieTile() {
     if (!movieData) {
         return (
             <div className="">
-                <p>Movie data not found</p>
+                <p>Movie data loading...</p>
             </div>
         )
     }
 
     return (
-        <div className="w-80 h-80 -ml-439">
+        <div className="w-80 h-80 -ml-135">
             <img
                 src={placeholder}
                 alt="placeholder"

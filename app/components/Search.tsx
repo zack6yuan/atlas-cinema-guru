@@ -6,7 +6,7 @@ export default function Search() {
         <input
           type="text"
           placeholder="Search Movies..."
-          className="border-2 rounded-3xl h-10 border-teal-400 pl-3 mt-2 mb-2 w-100"
+          className="border-2 rounded-3xl h-10 border-teal-400 bg-[#000061] pl-3 mt-2 mb-2 w-100"
         />
       </div>
       <div className="year-input flex justify-between">
@@ -15,7 +15,7 @@ export default function Search() {
           <input
             type="text"
             placeholder="Enter Year..."
-            className="border-2 rounded-3xl h-10 border-teal-400 pl-3 mt-2"
+            className="border-2 rounded-3xl h-10 border-teal-400 bg-[#000061] pl-3 mt-2"
           />
         </div>
         <div className="year-input ml-4">
@@ -23,7 +23,7 @@ export default function Search() {
           <input
             type="text"
             placeholder="Enter Year..."
-            className="border-2 rounded-3xl h-10 border-teal-400 pl-3 mt-2"
+            className="border-2 rounded-3xl h-10 border-teal-400 bg-[#000061] pl-3 mt-2"
           />
         </div>
       </div>
