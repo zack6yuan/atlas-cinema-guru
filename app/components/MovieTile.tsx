@@ -2,6 +2,7 @@
 import { useEffect, useState } from "react";
 import placeholder from "../../assets/placeholder.svg";
 
+
 export default function MovieTile() {
     const [movieData, setMovieData] = useState(null);
 
@@ -21,7 +22,7 @@ export default function MovieTile() {
 
     if (!movieData) {
         return (
-            <div className="">
+            <div className="flex items-center justify-center">
                 <p>Movie data loading...</p>
             </div>
         )
