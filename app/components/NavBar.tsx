@@ -1,5 +1,6 @@
 import { auth } from "@/auth";
 import film from "../../assets/film.png";
+import signOut from "../../assets/signOut.png";
 
 export default async function NavBar() {
     const session = await auth();
@@ -13,8 +14,9 @@ export default async function NavBar() {
       </div>
       <div className="flex">
         <p>Welcome {session.user.email}</p>
+        <img src={signOut.src} alt="" className="w-4 h-4 ml-3 mt-1" />
         <a href="/api/auth/signin">
-          <p className="ml-5 mr-5">Logout</p>
+          <p className="ml-3 mr-5">Logout</p>
         </a>
       </div>
     </div>

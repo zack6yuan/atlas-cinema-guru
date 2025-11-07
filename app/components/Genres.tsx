@@ -3,13 +3,13 @@ import { useEffect, useState } from "react";
 
 export default function Genres() {
 
-    const [color, setColor] = useState('transparent')
+    const [backgroundColor, setBackgroundColor] = useState('transparent')
 
-    const changeColor = () => {
-        if (color === 'transparent') {
-            setColor('teal');
+    const changeBackgroundColor = () => {
+        if (backgroundColor === 'transparent') {
+            setBackgroundColor('teal');
         } else {
-            setColor('transparent');
+            setBackgroundColor('transparent');
         }
     }
 
@@ -20,7 +20,7 @@ export default function Genres() {
       </div>
       <div className="">
         <div className="flex mb-4">
-          <button className="flex items-center cursor-pointer h-10 mr-2 p-3 border-2 rounded-full border-teal-400" style={{backgroundColor: color}} onClick={changeColor}>
+          <button className="flex items-center cursor-pointer h-10 mr-2 p-3 border-2 rounded-full border-teal-400" style={{ backgroundColor: backgroundColor }} onClick={changeBackgroundColor}>
             <p>Romance</p>
           </button>
           <button className="flex items-center cursor-pointer h-10  mr-2 p-3 border-2 rounded-full border-teal-400">
