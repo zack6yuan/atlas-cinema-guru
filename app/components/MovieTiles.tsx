@@ -37,8 +37,8 @@ export default function MovieTiles() {
   }
 
   return (
-    <div className="relative grid grid-cols-3 justify-center w-250 h-90 -ml-225 gap-5 ">
-        <div className="group cursor-pointer">
+    <div className="mx-auto w-300 h-300 relative grid grid-cols-3 justify-center items-center">
+        <div className="group cursor-pointer -mb-70">
         <img
           src={rain.src}
           alt="placeholder image"
@@ -50,7 +50,7 @@ export default function MovieTiles() {
             <p className="bg-teal-500 rounded-4xl mr-63 ml-2 mt-3 p-2 font-light text-xs">Drama</p>
         </div>
       </div>
-      <div className="group cursor-pointer">
+      <div className="group cursor-pointer -mb-70">
         <img
           src={aurora.src}
           alt="placeholder image"
@@ -62,7 +62,7 @@ export default function MovieTiles() {
             <p className="bg-teal-500 rounded-4xl mr-63 ml-2 mt-3 p-2 font-light text-xs">Drama</p>
         </div>
       </div>
-      <div className="group cursor-pointer">
+      <div className="group cursor-pointer -mb-70">
         <img
           src={city.src}
           alt="placeholder image"
