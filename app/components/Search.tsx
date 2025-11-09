@@ -1,6 +1,6 @@
 export default function Search() {
   return (
-    <div className="mr-40">
+    <div className="lg:mr-5">
       <div className="search-container">
         <p>Search</p>
         <input

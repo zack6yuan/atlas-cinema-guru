@@ -60,7 +60,7 @@ export default function Genres() {
           <button className="flex items-center cursor-pointer h-10 mr-2 p-3 border-2 rounded-full border-teal-400" style={{ backgroundColor: backgroundColor, color: textColor }} onClick={updateButton}>
             <p>Western</p>
           </button>
-          <button className="flex items-center cursor-pointer h-10 mr-2 p-3 border-2 rounded-full border-teal-400" style={{ backgroundColor: backgroundColor, color: textColor }} onClick={updateButton}>
+          <button className="flex items-center cursor-pointer h-10 mr-2 p-3 border-2 rounded-full border-teal-400 whitespace-nowrap" style={{ backgroundColor: backgroundColor, color: textColor }} onClick={updateButton}>
             <p>Sci-Fi</p>
           </button>
           <button className="flex items-center cursor-pointer h-10 p-3 border-2 rounded-full border-teal-400" style={{ backgroundColor: backgroundColor, color: textColor }} onClick={updateButton}>
