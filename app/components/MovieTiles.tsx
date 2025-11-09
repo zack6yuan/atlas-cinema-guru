@@ -45,9 +45,9 @@ export default function MovieTiles() {
           className="rounded-2xl border-2 border-teal-500"
         />
         <div className="absolute opacity-0 group-hover:opacity-100 transition duration-300 top-50 bg-[#000061] w-80 h-30 rounded-b-2xl text-sm border-l-2 border-r-2 border-b-2 border-teal-500">
-            <p className="ml-3 mt-2">After the Rain (2016)</p>
-            <p className="ml-3 mt-1 mr-1 text-xs">Two strangers form a bond as they try to rebuild their lives after a devastating flood.</p>
-            <p className="bg-teal-500 rounded-4xl mr-63 ml-2 mt-3 p-2 text-xs">Drama</p>
+            <p className="ml-3 mt-2 font-bold">After the Rain (2016)</p>
+            <p className="ml-3 mt-1 mr-1 text-xs font-light">Two strangers form a bond as they try to rebuild their lives after a devastating flood.</p>
+            <p className="bg-teal-500 rounded-4xl mr-63 ml-2 mt-3 p-2 font-light text-xs">Drama</p>
         </div>
       </div>
       <div className="group cursor-pointer">
@@ -57,9 +57,9 @@ export default function MovieTiles() {
           className="rounded-2xl border-2 border-teal-500"
         />
         <div className="absolute opacity-0 group-hover:opacity-100 transition duration-300 top-50 bg-[#000061] w-80 h-30 rounded-b-2xl text-sm border-l-2 border-r-2 border-b-2 border-teal-500">
-            <p className="ml-3 mt-2">Aurora's Light (2016)</p>
-            <p className="ml-3 mt-1 mr-1 text-xs">A reclusive lighthouse keeper and a lost traveler form an unlikely friendship.</p>
-            <p className="bg-teal-500 rounded-4xl mr-63 ml-2 mt-3 p-2 text-xs">Drama</p>
+            <p className="ml-3 mt-2 font-bold">Aurora's Light (2016)</p>
+            <p className="ml-3 mt-1 mr-1 text-xs font-light">A reclusive lighthouse keeper and a lost traveler form an unlikely friendship.</p>
+            <p className="bg-teal-500 rounded-4xl mr-63 ml-2 mt-3 p-2 font-light text-xs">Drama</p>
         </div>
       </div>
       <div className="group cursor-pointer">
@@ -69,9 +69,9 @@ export default function MovieTiles() {
           className="rounded-2xl border-2 border-teal-500"
         />
         <div className="absolute opacity-0 group-hover:opacity-100 transition duration-300 top-50 bg-[#000061] w-80 h-30 rounded-b-2xl text-sm border-l-2 border-r-2 border-b-2 border-teal-500">
-            <p className="ml-3 mt-2">Before the Dawn (2021)</p>
-            <p className="ml-3 mt-1 mr-1 text-xs">A couple fights to survive as a pandemic sweeps across the globe.</p>
-            <p className="bg-teal-500 rounded-4xl mr-63 ml-2 mt-3 p-2 text-xs">Thriller</p>
+            <p className="ml-3 mt-2 font-bold">Before the Dawn (2021)</p>
+            <p className="ml-3 mt-1 mr-1 text-xs font-light">A couple fights to survive as a pandemic sweeps across the globe.</p>
+            <p className="bg-teal-500 rounded-4xl mr-63 ml-2 mt-3 p-2 font-light text-xs">Thriller</p>
         </div>
       </div>
       <div className="cursor-pointer">
