@@ -10,7 +10,7 @@ export default function Search() {
         />
       </div>
       <div className="year-input flex justify-between">
-        <div className="flex-col">
+        <div>
           <p>Min year</p>
           <input
             type="text"
