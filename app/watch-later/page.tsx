@@ -1,15 +1,19 @@
 // Watch Later Page
 import NavBar from "../components/NavBar";
 import SideBar from "../components/SideBar";
+import MovieTiles from "../components/MovieTiles";
 
-export default function WaterLater() {
+export default function Page() {
   return (
-    <div className="flex items-center justify-center h-screen">
+    <div className="flex flex-col w-full">
+      <div className="flex lg:flex-row 2xl:flex-row items-center h-screen">
         <NavBar />
         <SideBar />
-        <div className="flex justify-start font-bold text-5xl">
-            <h1>Watch Later</h1>
-        </div>
+      </div>
+      <div className="flex justify-center w-full 2xl:-mt-205">
+        <h1 className="font-bold 2xl:text-5xl">Watch Later</h1>
+      </div>
+      <div className="2xl:-mt-110 2xl:-ml-5"><MovieTiles /></div>
     </div>
   );
 }
