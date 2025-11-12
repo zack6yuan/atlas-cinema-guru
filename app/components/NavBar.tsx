@@ -10,15 +10,15 @@ export default async function NavBar() {
     <div className="bg-teal-400 text-blue-950 w-full h-15 flex justify-between items-center fixed top-0 z-50">
       <div className="flex ml-3">
         <a href="/">
-          <div className="flex">
-            <img src={film.src} className="2xl:h-6 2xl:w-6 2xl:mr-2 2xl:mt-1 xl:h-6 xl:w-6 xl:mt-1 xl:mr-2" alt="" />
-            <h1 className="2xl:text-2xl xl:text-2xl font-bold">Cinema Guru</h1>
+          <div className="flex md:w-50">
+            <img src={film.src} className="2xl:h-6 2xl:w-6 2xl:mr-2 2xl:mt-1 xl:h-6 xl:w-6 xl:mt-1 xl:mr-2 lg:h-6 lg:w-6 lg:mt-1 lg:mr-2 md:w-6 md:h-6 md:mt-1 md:mr-2 sm:w-6 sm:h-6 sm:mr-2 sm:mt-0.5 w-6 h-6 mr-2 mt-0.5" alt="" />
+            <h1 className="2xl:text-2xl xl:text-2xl lg:text-2xl md:text-2xl sm:text-xl text-xl sm:w-37 font-bold lg:text-red-500 xl:text-blue-500">Cinema Guru</h1>
           </div>
         </a>
       </div>
-      <div className="flex">
+      <div className="hidden md:flex">
         <p>Welcome, {session.user.email}</p>
-        <img src={signOut.src} alt="" className="2xl:w-4 2xl:h-4 2xl:ml-7 2xl:mt-1 xl:w-4 xl:h-4 xl:mt-1 xl:ml-7" />
+        <img src={signOut.src} alt="" className="2xl:w-4 2xl:h-4 2xl:ml-7 2xl:mt-1 xl:w-4 xl:h-4 xl:mt-1 xl:ml-7 lg:w-4 lg:h-4 lg:mt-1 lg:ml-7 md:w-4 md:h-4 md:mt-1 md:ml-7" />
         <a href="/api/auth/signin">
           <p className="ml-3 mr-5">Logout</p>
         </a>

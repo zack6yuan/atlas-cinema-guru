@@ -11,16 +11,16 @@ export default function Page() {
       <div className="flex lg:flex-row 2xl:flex-row items-center justify-center h-screen">
         <NavBar />
         <SideBar />
-        <div className="flex justify-between w-full xl:ml-35 xl:mr-10 xl:-mt-185 lg:-mt-185">
-          <div className="2xl:mt-45 xl:ml-0 lg:mt-30 lg:ml-35">
+        <div className="flex justify-between w-full xl:ml-35 xl:mr-10 xl:-mt-185 lg:-mt-185 md:scale-95 md:-mt-155">
+          <div className="2xl:mt-35 xl:mt-35 xl:ml-0 lg:mt-35 lg:ml-35 md:ml-35">
             <Search />
           </div>
-          <div className="2xl:mt-45 2xl:mr-0 xl:-mr-25 lg:mt-30 lg:-mr-20">
+          <div className="2xl:mt-35 2xl:mr-0 xl:mt-35 xl:mr-1 lg:mt-35 lg:mr-10">
             <Genres />
           </div>
         </div>
       </div>
-      <div className="2xl:-mt-275 2xl:-ml-5 grid xl:grid-cols-2">
+      <div className="grid 2xl:-mt-285 2xl:-ml-5 xl:-mt-265 xl:ml-5 lg:-mt-165 lg:ml-10 md:-mt-170">
         <MovieTiles />
       </div>
     </div>
