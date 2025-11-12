@@ -10,10 +10,10 @@ export default function Page() {
         <NavBar />
         <SideBar />
       </div>
-      <div className="flex justify-center w-full 2xl:-mt-205">
-        <h1 className="font-bold 2xl:text-5xl">Favorites</h1>
+      <div className="flex justify-center w-full 2xl:-mt-215 md:-mt-215">
+        <h1 className="font-bold 2xl:text-5xl md:text-4xl">Favorites</h1>
       </div>
-      <div className="2xl:-mt-110 2xl:-ml-5"><MovieTiles /></div>
+      <div className="2xl:-mt-110 2xl:-ml-5 xl:-mt-80"><MovieTiles /></div>
     </div>
   );
 }

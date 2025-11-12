@@ -30,30 +30,30 @@ export default function MovieTiles() {
 
   if (!movieData) {
     return (
-      <div className="flex items-center justify-center">
+      <div className="grid items-center justify-center">
         <p className="2xl:text-2xl font-bold">Movie data loading...</p>
       </div>
     );
   }
 
   return (
-    <div className="mx-auto 2xl:ml-40 2xl:mt-5 w-420 h-400 relative grid grid-cols-3 justify-center items-center gap-30">
+    <div className="mx-auto 2xl:ml-40 2xl:mt-5 2xl:w-369 2xl:h-360 xl:w-7xl xl:h-200 xl:ml-30 relative grid grid-cols-3 justify-center items-center 2xl:gap-30 xl:gap-10">
       <div className="group cursor-pointer -mb-205">
         <img
           src={rain.src}
           alt="placeholder image"
           className="rounded-2xl border-2 border-[#1dd2af]"
         />
-        <div className="absolute opacity-0 group-hover:opacity-100 transition duration-300 top-186 bg-[#000061] w-120 h-45 rounded-b-2xl text-sm border-l-2 border-r-2 border-b-2 border-[#1dd2af]">
+        <div className="absolute opacity-0 group-hover:opacity-100 transition duration-300 2xl:top-172 bg-[#000061] 2xl:w-103 2xl:h-45 rounded-b-2xl border-l-2 border-r-2 border-b-2 border-[#1dd2af]">
           <div className="2xl:mt-5 2xl:ml-2">
             <p className="ml-3 mt-2 font-bold 2xl:text-xl">
               After the Rain (2016)
             </p>
-            <p className="ml-3 mt-1 mr-1 2xl:text-lg font-light">
+            <p className="2xl:ml-3 2xl:mt-1 2xl:mr-3 2xl:text-lg font-light">
               Two strangers form a bond as they try to rebuild their lives after
               a devastating flood.
             </p>
-            <p className="bg-[#1dd2af] rounded-4xl mr-102 ml-2 mt-3 p-2 font-light text-xs">
+            <p className="bg-[#1dd2af] rounded-4xl 2xl:mr-102 2xl:ml-2 2xl:mt-5 2xl:p-2 2xl:w-13 font-light text-xs">
               Drama
             </p>
           </div>
@@ -65,16 +65,16 @@ export default function MovieTiles() {
           alt="placeholder image"
           className="rounded-2xl border-2 border-[#1dd2af]"
         />
-        <div className="absolute opacity-0 group-hover:opacity-100 transition duration-300 top-186 bg-[#000061] w-120 h-45 rounded-b-2xl text-sm border-l-2 border-r-2 border-b-2 border-[#1dd2af]">
+        <div className="absolute opacity-0 group-hover:opacity-100 transition duration-300 2xl:top-172 bg-[#000061] w-103 h-45 rounded-b-2xl text-sm border-l-2 border-r-2 border-b-2 border-[#1dd2af]">
           <div className="2xl:mt-5 2xl:ml-2">
             <p className="ml-3 mt-2 font-bold 2xl:text-xl">
               Aurora's Light (2016)
             </p>
-            <p className="ml-3 mt-1 mr-1 2xl:text-lg font-light">
+            <p className="2xl:ml-3 2xl:mt-1 2xl:mr-3 2xl:text-lg font-light">
               A reclusive lighthouse keeper and a lost traveler form an unlikely
               friendship.
             </p>
-            <p className="bg-[#1dd2af] rounded-4xl mr-102 ml-2 mt-3 p-2 font-light text-xs">
+            <p className="bg-[#1dd2af] rounded-4xl 2xl:mr-102 2xl:ml-2 2xl:mt-5 2xl:p-2 2xl:w-13 font-light text-xs">
               Drama
             </p>
           </div>
@@ -86,13 +86,13 @@ export default function MovieTiles() {
           alt="placeholder image"
           className="rounded-2xl border-2 border-[#1dd2af]"
         />
-        <div className="absolute opacity-0 group-hover:opacity-100 transition duration-300 top-186 bg-[#000061] w-120 h-45 rounded-b-2xl text-sm border-l-2 border-r-2 border-b-2 border-[#1dd2af]">
+        <div className="absolute opacity-0 group-hover:opacity-100 transition duration-300 2xl:top-172 bg-[#000061] w-103 h-45 rounded-b-2xl text-sm border-l-2 border-r-2 border-b-2 border-[#1dd2af]">
           <div className="2xl:mt-5 2xl:ml-2">
             <p className="ml-3 mt-2 font-bold 2xl:text-xl">Before the Dawn (2021)</p>
-            <p className="ml-3 mt-1 mr-1 2xl:text-lg font-light">
+            <p className="2xl:ml-3 2xl:mt-1 2xl:mr-3 2xl:text-lg font-light">
               A couple fights to survive as a pandemic sweeps across the globe.
             </p>
-            <p className="bg-[#1dd2af] rounded-4xl mr-102 ml-2 mt-3 p-2 font-light text-xs">
+            <p className="bg-[#1dd2af] rounded-4xl 2xl:mr-102 2xl:ml-2 2xl:mt-5 2xl:p-2 2xl:w-14 font-light text-xs">
               Thriller
             </p>
           </div>
@@ -104,13 +104,13 @@ export default function MovieTiles() {
           alt="placeholder image"
           className="rounded-2xl border-2 border-[#1dd2af]"
         />
-        <div className="absolute opacity-0 group-hover:opacity-100 transition duration-300 top-311 bg-[#000061] w-120 h-45 rounded-b-2xl text-sm border-l-2 border-r-2 border-b-2 border-[#1dd2af]">
+        <div className="absolute opacity-0 group-hover:opacity-100 transition duration-300 2xl:top-277 bg-[#000061] w-103 h-45 rounded-b-2xl text-sm border-l-2 border-r-2 border-b-2 border-[#1dd2af]">
           <div className="2xl:mt-5 2xl:ml-2">
             <p className="ml-3 mt-2 font-bold 2xl:text-xl">Beneath the Surface (2021)</p>
-            <p className="ml-3 mt-1 mr-1 2xl:text-lg font-light">
+            <p className="2xl:ml-3 2xl:mt-1 2xl:mr-3 2xl:text-lg font-light">
               A marine biologist discovers a hidden underwater civilization.
             </p>
-            <p className="bg-[#1dd2af] rounded-4xl mr-102 ml-2 mt-3 p-2 font-light text-xs">
+            <p className="bg-[#1dd2af] rounded-4xl 2xl:mr-102 2xl:ml-2 2xl:mt-5 2xl:p-2 2xl:w-14 font-light text-xs">
               Thriller
             </p>
           </div>
@@ -122,13 +122,13 @@ export default function MovieTiles() {
           alt="placeholder image"
           className="rounded-2xl border-2 border-[#1dd2af]"
         />
-        <div className="absolute opacity-0 group-hover:opacity-100 transition duration-300 top-311 bg-[#000061] w-120 h-45 rounded-b-2xl text-sm border-l-2 border-r-2 border-b-2 border-[#1dd2af]">
+        <div className="absolute opacity-0 group-hover:opacity-100 transition duration-300 2xl:top-277 bg-[#000061] w-103 h-45 rounded-b-2xl text-sm border-l-2 border-r-2 border-b-2 border-[#1dd2af]">
           <div className="2xl:mt-5 2xl:ml-2">
             <p className="ml-3 mt-2 font-bold 2xl:text-xl">Beyond the Mist (2019)</p>
-            <p className="ml-3 mt-1 mr-1 2xl:text-lg font-light">
+            <p className="2xl:ml-3 2xl:mt-1 2xl:mr-3 2xl:text-lg font-light">
               A historian uncovers a hidden village lost in time and must decide whether to leave.
             </p>
-            <p className="bg-[#1dd2af] rounded-4xl mr-102 ml-2 mt-3 p-2 font-light text-xs">
+            <p className="bg-[#1dd2af] rounded-4xl 2xl:mr-102 2xl:ml-2 2xl:mt-5 2xl:p-2 2xl:w-14 font-light text-xs">
               Thriller
             </p>
           </div>
@@ -140,13 +140,13 @@ export default function MovieTiles() {
           alt="placeholder image"
           className="rounded-2xl border-2 border-[#1dd2af]"
         />
-        <div className="absolute opacity-0 group-hover:opacity-100 transition duration-300 top-311 bg-[#000061] w-120 h-45 rounded-b-2xl text-sm border-l-2 border-r-2 border-b-2 border-[#1dd2af]">
+        <div className="absolute opacity-0 group-hover:opacity-100 transition duration-300 2xl:top-277 bg-[#000061] 2xl:w-103 h-45 rounded-b-2xl text-sm border-l-2 border-r-2 border-b-2 border-[#1dd2af]">
           <div className="2xl:mt-5 2xl:ml-2">
             <p className="ml-3 mt-2 font-bold 2xl:text-xl">Beyond the Veil (2020)</p>
-            <p className="ml-3 mt-1 mr-1 2xl:text-lg font-light">
+            <p className="2xl:ml-3 2xl:mt-1 2xl:mr-4 2xl:text-lg font-light">
               A paranormal investigator enters the afterlife to save his brother's soul.
             </p>
-            <p className="bg-[#1dd2af] rounded-4xl mr-102 ml-2 mt-3 p-2 font-light text-xs">
+            <p className="bg-[#1dd2af] rounded-4xl 2xl:mr-102 2xl:ml-2 2xl:mt-5 2xl:p-2 2xl:w-14 font-light text-xs">
               Thriller
             </p>
           </div>
