@@ -25,7 +25,7 @@ export default function Search() {
         <div>
           <p>Min year</p>
           <input
-            type="text"
+            type="number"
             placeholder="Enter Year..."
             className="border-2 rounded-3xl h-10 border-teal-400 bg-[#000061] pl-3 mt-2"
           />
@@ -33,7 +33,7 @@ export default function Search() {
         <div className="year-input ml-4">
           <p>Max year</p>
           <input
-            type="text"
+            type="number"
             placeholder="Enter Year..."
             className="border-2 rounded-3xl h-10 border-teal-400 bg-[#000061] pl-3 mt-2"
           />
