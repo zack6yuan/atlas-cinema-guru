@@ -2,12 +2,15 @@
 import { useEffect, useState } from "react";
 import ButtonOptions from "./ButtonOptions";
 
-type title = {
-title: string[];
+type MovieData = {
+  title: string,
+  image: string,
+  released: string,
+  synposis: string,
 }
 
 export default function MovieTiles() {
-  const [movieData, setMovieData] = useState(null);
+  const [movieData, setMovieData] = useState<MovieData>(null);
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
@@ -35,7 +38,7 @@ export default function MovieTiles() {
   return (
     <div className="mx-auto 2xl:ml-40 2xl:mt-5 2xl:w-369 2xl:h-360 xl:w-7xl xl:h-200 xl:ml-30 relative grid 2xl:grid-cols-3 xl:grid-cols-3 lg:grid-cols-2 lg:w-250 md:grid-cols-2 md:w-210 md:ml-40 justify-center items-center 2xl:gap-15 xl:gap-10 md:gap-4 sm:grid-cols-1 sm:w-170 sm:-mt-120">
       <div
-        className="group 2xl:-mb-180 lg:mr-10 lg:mb-4 md:mr-10 sm:mb-5"
+        className="group 2xl:-mb-180 lg:mr-10 lg:mb-4 md:mr-10 sm:mb-5 shadow-teal-500 shadow-md rounded-2xl"
       >
         <img
           src={movieData?.title?.[0]?.image}
@@ -59,7 +62,7 @@ export default function MovieTiles() {
           </div>
         </div>
       </div>
-      <div className="group 2xl:-mb-180 lg:mr-10 lg:mb-4 md:mr-10 sm:mb-5">
+      <div className="group 2xl:-mb-180 lg:mr-10 lg:mb-4 md:mr-10 sm:mb-5 shadow-teal-500 shadow-md rounded-2xl">
         <img
           src={movieData?.title?.[1]?.image}
           alt="placeholder image"
@@ -82,7 +85,7 @@ export default function MovieTiles() {
           </div>
         </div>
       </div>
-      <div className="group 2xl:-mb-180 lg:mr-10 lg:mb-4 md:mr-10 sm:mb-5">
+      <div className="group 2xl:-mb-180 lg:mr-10 lg:mb-4 md:mr-10 sm:mb-5 shadow-teal-500 shadow-md rounded-2xl">
         <img
           src={movieData?.title?.[2]?.image}
           alt="placeholder image"
@@ -105,7 +108,7 @@ export default function MovieTiles() {
           </div>
         </div>
       </div>
-      <div className="group 2xl:-mb-50 xl:-mb-2 xl:-mt-30 lg:mr-10 lg:mb-4 md:mr-10 sm:mb-5">
+      <div className="group 2xl:-mb-50 xl:-mb-2 xl:-mt-30 lg:mr-10 lg:mb-4 md:mr-10 sm:mb-5 shadow-teal-500 shadow-md rounded-2xl">
         <img
           src={movieData?.title?.[3]?.image}
           alt="placeholder image"
@@ -128,7 +131,7 @@ export default function MovieTiles() {
           </div>
         </div>
       </div>
-      <div className="group 2xl:-mb-50 xl:-mb-2 xl:-mt-30 lg:mr-10 lg:mb-4 md:mr-10 sm:mb-5">
+      <div className="group 2xl:-mb-50 xl:-mb-2 xl:-mt-30 lg:mr-10 lg:mb-4 md:mr-10 sm:mb-5 shadow-teal-500 shadow-md rounded-2xl">
         <img
           src={movieData?.title?.[4]?.image}
           alt="placeholder image"
@@ -151,7 +154,7 @@ export default function MovieTiles() {
           </div>
         </div>
       </div>
-      <div className="group 2xl:-mb-50 xl:-mb-2 xl:-mt-30 lg:mr-10 lg:mb-4 md:mr-10 sm:mb-5">
+      <div className="group 2xl:-mb-50 xl:-mb-2 xl:-mt-30 lg:mr-10 lg:mb-4 md:mr-10 sm:mb-5 shadow-teal-500 shadow-md rounded-2xl">
         <img
           src={movieData?.title?.[5]?.image}
           alt="placeholder image"
