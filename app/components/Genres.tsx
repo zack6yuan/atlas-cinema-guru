@@ -58,7 +58,7 @@ export default function Genres() {
         <p className="mb-2"></p>
       </div>
       <div className="">
-        <h1 className="2xl:mb-2 xl:mb-2 lg:mb-2">Genres</h1>
+        <h1 className="2xl:mb-2 xl:mb-2 lg:mb-2 md:mb-2 sm:mb-2">Genres</h1>
         <div className="flex mb-4">
           <button
             className="flex items-center cursor-pointer h-10 mr-2 p-3 border-2 rounded-full border-teal-400"
