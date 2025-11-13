@@ -1,10 +1,14 @@
 "use client";
 import { useEffect, useState } from "react";
 
+type MovieTypes = {
+  genres: string;
+}
+
 export default function Genres() {
   const [backgroundColor, setBackgroundColor] = useState("transparent");
   const [textColor, setTextColor] = useState("white");
-  const [category, setCategory] = useState(null);
+  const [category, setCategory] = useState<MovieTypes>(null);
 
   const changeBackgroundColor = () => {
     if (backgroundColor === "transparent") {
