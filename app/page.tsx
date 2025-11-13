@@ -21,7 +21,7 @@ export default function Page() {
           </div>
         </div>
       </div>
-      <div className="grid 2xl:-mt-285 2xl:ml-5 xl:-mt-60 xl:ml-12 lg:ml-0 md:-mt-50">
+      <div className="grid 2xl:-mt-295 2xl:ml-5 xl:-mt-60 xl:ml-12 lg:ml-0 md:-mt-50">
         <MovieTiles />
       </div>
       <div className="flex items-center justify-center sm:mt-15 sm:mb-15 md:ml-10">

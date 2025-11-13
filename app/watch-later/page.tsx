@@ -11,12 +11,12 @@ export default function Page() {
         <NavBar />
         <SideBar />
       </div>
-      <div className="flex justify-center w-full 2xl:-mt-215 md:-mt-215">
-        <h1 className="font-bold 2xl:text-5xl md:text-4xl sm:text-4xl sm:-mt-195">
+      <div className="flex justify-center w-full 2xl:-mt-215 md:-mt-20">
+        <h1 className="font-bold 2xl:text-5xl md:text-4xl md:ml-25 lg:-ml-1 xl:-ml-10 sm:text-4xl sm:-mt-195 2xl:mt-5 2xl:ml-1">
           Watch Later
         </h1>
       </div>
-      <div className="2xl:-mt-110 2xl:-ml-5 xl:mt-115 lg:mt-130 md:mt-130 sm:-mt-55">
+      <div className="2xl:-mt-110 2xl:-ml-5 md:-mt-55 sm:-mt-55 xl:-mt-65">
         <MovieTiles />
       </div>
       <div className="flex items-center justify-center sm:mt-15 sm:mb-15 md:ml-10">
