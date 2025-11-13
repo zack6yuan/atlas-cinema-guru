@@ -11,7 +11,7 @@ export default function Page() {
       <div className="flex lg:flex-row 2xl:flex-row items-center justify-center h-screen">
         <NavBar />
         <SideBar />
-        <div className="flex justify-between w-full xl:ml-35 xl:mr-10 xl:-mt-185 lg:-mt-185 md:scale-95 md:-mt-155">
+        <div className="flex flex-col sm:ml-40 sm:mr-37 sm:-mt-90 md:flex-row justify-between w-full xl:ml-35 xl:mr-10 xl:-mt-185 lg:-mt-185 md:scale-95 md:-mt-155">
           <div className="2xl:mt-35 xl:mt-35 xl:ml-0 lg:mt-35 lg:ml-35 md:ml-35 md:mr-5">
             <Search />
           </div>
