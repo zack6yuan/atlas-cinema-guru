@@ -4,6 +4,7 @@ import Search from "./components/Search";
 import SideBar from "./components/SideBar";
 import Genres from "./components/Genres";
 import MovieTiles from "./components/MovieTiles";
+import PaginationButtons from './components/PaginationButtons';
 
 export default function Page() {
   return (
@@ -20,8 +21,11 @@ export default function Page() {
           </div>
         </div>
       </div>
-      <div className="grid 2xl:-mt-285 2xl:ml-5 xl:-mt-170 xl:ml-12 lg:-mt-165 lg:ml-0 md:-mt-50">
+      <div className="grid 2xl:-mt-285 2xl:ml-5 xl:-mt-60 xl:ml-12 lg:ml-0 md:-mt-50">
         <MovieTiles />
+      </div>
+      <div className="flex items-center justify-center sm:mt-15 sm:mb-15">
+        <PaginationButtons />
       </div>
     </div>
   );
