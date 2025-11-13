@@ -1,12 +1,10 @@
 "use client";
 import { useEffect, useState } from "react";
 
-
 export default function Genres() {
   const [backgroundColor, setBackgroundColor] = useState("transparent");
   const [textColor, setTextColor] = useState("white");
   const [category, setCategory] = useState(null);
-  const [loading, setLoading] = useState(false);
 
   const changeBackgroundColor = () => {
     if (backgroundColor === "transparent") {
