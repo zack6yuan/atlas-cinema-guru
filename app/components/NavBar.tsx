@@ -30,7 +30,7 @@ export default async function NavBar() {
           className="2xl:w-4 2xl:h-4 2xl:ml-7 2xl:mt-1 xl:w-4 xl:h-4 xl:mt-1 xl:ml-7 lg:w-4 lg:h-4 lg:mt-1 lg:ml-7 md:w-4 md:h-4 md:mt-1 md:ml-7"
         />
         <a href="/api/auth/signin">
-          <p className="ml-3 mr-5">Logout</p>
+          <p className="ml-3 mr-5 hover:ml-5 transition duration-300">Logout</p>
         </a>
       </div>
     </div>
