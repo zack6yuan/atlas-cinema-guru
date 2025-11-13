@@ -1,13 +1,13 @@
-"use client"
+"use client";
 import { useState } from "react";
 
 export default function Search() {
-  const [search, setSearch] = useState('');
+  const [search, setSearch] = useState("");
 
   const handleSearchChange = (e) => {
     const searchInput = e.target.value;
-    setSearch(searchInput)
-  }
+    setSearch(searchInput);
+  };
 
   return (
     <div className="lg:mr-5">

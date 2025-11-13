@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 
 type MovieTypes = {
   genres: string;
-}
+};
 
 export default function Genres() {
   const [backgroundColor, setBackgroundColor] = useState("transparent");
@@ -18,7 +18,7 @@ export default function Genres() {
     }
   };
 
-  const changeTextColor =  () => {
+  const changeTextColor = () => {
     if (textColor === "white") {
       setTextColor("#000061");
     } else {
@@ -35,17 +35,15 @@ export default function Genres() {
     const fetchGenres = async () => {
       const response = await fetch("api/genres");
       if (!response) {
-        console.error('Error fetching genres...')
+        console.error("Error fetching genres...");
       } else {
         const data = await response.json();
         console.log(data);
-        setCategory(data)
+        setCategory(data);
       }
     };
     fetchGenres();
   }, []);
-
-  
 
   return (
     <div className="">

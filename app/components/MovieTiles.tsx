@@ -3,11 +3,11 @@ import { useEffect, useState } from "react";
 import ButtonOptions from "./ButtonOptions";
 
 type MovieData = {
-  title: string,
-  image: string,
-  released: string,
-  synposis: string,
-}
+  title: string;
+  image: string;
+  released: string;
+  synposis: string;
+};
 
 export default function MovieTiles() {
   const [movieData, setMovieData] = useState<MovieData>(null);
@@ -15,11 +15,11 @@ export default function MovieTiles() {
 
   useEffect(() => {
     const fetchMovies = async () => {
-      const response = await fetch('api/titles');
+      const response = await fetch("api/titles");
       if (!response) {
-        console.error('Error fetching movies...')
+        console.error("Error fetching movies...");
       } else {
-        const data = await response.json()
+        const data = await response.json();
         console.log(data);
         setMovieData(data);
       }
@@ -37,9 +37,7 @@ export default function MovieTiles() {
 
   return (
     <div className="mx-auto 2xl:ml-40 2xl:mt-5 2xl:w-369 2xl:h-360 xl:w-7xl xl:h-200 xl:ml-30 relative grid 2xl:grid-cols-3 xl:grid-cols-3 lg:grid-cols-2 lg:w-250 md:grid-cols-2 md:w-210 md:ml-40 justify-center items-center 2xl:gap-15 xl:gap-10 md:gap-4 sm:grid-cols-1 sm:w-170 sm:-mt-120">
-      <div
-        className="group 2xl:-mb-180 lg:mr-10 lg:mb-4 md:mr-10 sm:mb-5 shadow-teal-500 shadow-md rounded-2xl"
-      >
+      <div className="group 2xl:-mb-180 lg:mr-10 lg:mb-4 md:mr-10 sm:mb-5 shadow-teal-500 shadow-md rounded-2xl">
         <img
           src={movieData?.title?.[0]?.image}
           alt="placeholder image"
@@ -163,8 +161,7 @@ export default function MovieTiles() {
         <div className="group absolute opacity-0 group-hover:opacity-100 transition duration-300 sm:top-876 md:left-33 md:top-204 lg:left-72 lg:top-242 xl:top-100 xl:left-145 2xl:left-190 2xl:top-225">
           <ButtonOptions />
         </div>
-        <div className="group opacity-0 group-hover:opacity-100 transition duration-300">
-        </div>
+        <div className="group opacity-0 group-hover:opacity-100 transition duration-300"></div>
         <div className="absolute opacity-0 group-hover:opacity-100 transition duration-300 2xl:top-284 xl:top-148 lg:top-310 md:top-262 sm:top-980 sm:w-170 sm:h-65 bg-[#000061] 2xl:w-103 2xl:h-45 xl:w-90 xl:h-45 lg:w-113 lg:h-45 md:w-93 md:h-35 rounded-b-2xl text-sm border-l-2 border-r-2 border-b-2 border-[#1dd2af]">
           <div className="2xl:mt-5 2xl:ml-2 sm:ml-5 sm:mt-2 md:ml-0.5">
             <p className="2xl:ml-3 2xl:mt-2 font-bold 2xl:text-xl xl:text-xl md:text-lg xl:mt-4 xl:ml-5 lg:text-lg lg:ml-4 lg:mt-4 md:ml-4 md:mt-2 md:mb-1 sm:text-2xl sm:mb-17 sm:mt-3">
