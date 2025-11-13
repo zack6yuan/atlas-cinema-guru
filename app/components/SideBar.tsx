@@ -28,8 +28,8 @@ export default function SideBar() {
       <div className="latest-activities bg-teal-300 text-center sm:hidden md:block h-full pt-3 ml-5 mr-5 rounded-lg opacity-0 group-hover:opacity-100 text-blue-950">
         <p className="pb-3 font-bold">Latest Activities</p>
         <p className="text-left ml-2 mr-2 mb-3">10/2/2020, 5:11:17 PM Added <span className="font-bold">Before the Dawn</span> to Watch Later</p>
-        <p className="text-left ml-2 mr-2 mb-3">10/2/2022, 5:15:17 PM Added <span className="font-bold">After the Rain</span> to Favorites</p>
-        <p className="text-left ml-2 mr-2 mb-3">1/2/2024, 9:20:54 AM Added <span className="font-bold">Aurora's Light</span> to Favorites</p>
+        <p className="text-left ml-2 mr-2 mb-3">10/2/2022, 5:15:17 PM Favorited <span className="font-bold">After the Rain</span></p>
+        <p className="text-left ml-2 mr-2 mb-3">1/2/2024, 9:20:54 AM Favorited <span className="font-bold">Aurora's Light</span></p>
         <p className="text-left ml-2 mr-2 mb-3">4/2/2025, 2:17:26 AM Added <span className="font-bold">Beyond the Veil</span> to Watch Later</p>
         <p className="text-left ml-2 mr-2 mb-3">18/2/2025, 5:11:22 PM Added <span className="font-bold">Beyond the Mist</span> to Watch Later</p>
       </div>
