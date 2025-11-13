@@ -45,7 +45,7 @@ export default function MovieTiles() {
           alt="placeholder image"
           className="rounded-2xl border-2 border-[#1dd2af] xl:-mt-89 2xl:-mt-151"
         />
-        <div className="absolute opacity-100 group-hover:opacity-100 transition duration-300 sm:top-1 md:-left-75 md:top-10 lg:-left-55 lg:top-1 xl:-left-77 xl:top-8 2xl:top-120 2xl:-left-65">
+        <div className="absolute opacity-100 group-hover:opacity-100 transition duration-300 sm:top-1 md:-left-75 md:top-10 lg:-left-55 lg:top-1 xl:-left-70 xl:top-8 2xl:top-120 2xl:-left-65">
           <ButtonOptions />
         </div>
         <div className="absolute opacity-100 group-hover:opacity-100 transition duration-300 2xl:top-177 xl:top-2 lg:top-70 md:top-58 sm:top-105 sm:w-170 sm:h-65 bg-[#000061] 2xl:w-103 2xl:h-45 xl:w-90 xl:h-45 lg:w-113 lg:h-45 md:w-93 md:h-35 rounded-b-2xl text-sm border-l-2 border-r-2 border-b-2 border-[#1dd2af]">
@@ -137,7 +137,7 @@ export default function MovieTiles() {
           alt="placeholder image"
           className="rounded-2xl border-2 border-[#1dd2af] xl:-mt-89 2xl:-mt-151"
         />
-        <div className="absolute opacity-100 group-hover:opacity-100 transition duration-300 sm:top-526 md:-left-75 md:top-10 lg:-left-55 lg:top-1 xl:-left-77 xl:top-8 2xl:top-120 2xl:-left-65">
+        <div className="absolute opacity-100 group-hover:opacity-100 transition duration-300 sm:top-701 md:-left-75 md:top-10 lg:-left-55 lg:top-1 xl:-left-77 xl:top-8 2xl:top-120 2xl:-left-65">
           <ButtonOptions />
         </div>
         <div className="absolute opacity-100 group-hover:opacity-100 transition duration-300 2xl:top-177 xl:top-104 lg:top-70 md:top-262 sm:top-805 sm:w-170 sm:h-65 bg-[#000061] 2xl:w-103 2xl:h-45 xl:w-90 xl:h-45 lg:w-113 lg:h-45 md:w-93 md:h-35 rounded-b-2xl text-sm border-l-2 border-r-2 border-b-2 border-[#1dd2af]">
@@ -160,7 +160,7 @@ export default function MovieTiles() {
           alt="placeholder image"
           className="rounded-2xl border-2 border-[#1dd2af] xl:-mt-89 2xl:-mt-151"
         />
-        <div className="absolute opacity-100 group-hover:opacity-100 transition duration-300 sm:top-526 md:-left-75 md:top-10 lg:-left-55 lg:top-1 xl:-left-77 xl:top-8 2xl:top-120 2xl:-left-65">
+        <div className="absolute opacity-100 group-hover:opacity-100 transition duration-300 sm:top-876 md:-left-75 md:top-10 lg:-left-55 lg:top-1 xl:-left-77 xl:top-8 2xl:top-120 2xl:-left-65">
           <ButtonOptions />
         </div>
         <div className="absolute opacity-100 group-hover:opacity-100 transition duration-300 2xl:top-177 xl:top-104 lg:top-70 md:top-262 sm:top-980 sm:w-170 sm:h-65 bg-[#000061] 2xl:w-103 2xl:h-45 xl:w-90 xl:h-45 lg:w-113 lg:h-45 md:w-93 md:h-35 rounded-b-2xl text-sm border-l-2 border-r-2 border-b-2 border-[#1dd2af]">
