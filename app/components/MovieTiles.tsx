@@ -29,7 +29,7 @@ export default function MovieTiles() {
 
   if (!movieData) {
     return (
-      <div className="grid items-center justify-center lg:mt-5 lg:ml-1">
+      <div className="grid items-center justify-center lg:-mt-100 lg:ml-1 xl:-mt-100 md:-mt-100 sm:-mt-150">
         <p className="2xl:text-2xl font-bold">Movie data loading...</p>
       </div>
     );
