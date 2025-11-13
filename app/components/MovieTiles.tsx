@@ -94,7 +94,7 @@ export default function MovieTiles() {
         <div className="absolute opacity-0 group-hover:opacity-100 transition duration-300 sm:top-351 md:-left-75 md:top-101 lg:-left-55 lg:top-120 xl:top-8 xl:left-143 2xl:left-190 2xl:top-120">
           <ButtonOptions />
         </div>
-        <div className="absolute opacity-100 group-hover:opacity-100 transition duration-300 2xl:top-177 xl:top-55 lg:top-189 md:top-160 sm:top-455 sm:w-170 sm:h-65 bg-[#000061] 2xl:w-103 2xl:h-45 xl:w-90 xl:h-45 lg:w-113 lg:h-45 md:w-93 md:h-35 rounded-b-2xl text-sm border-l-2 border-r-2 border-b-2 border-[#1dd2af]">
+        <div className="absolute opacity-0 group-hover:opacity-100 transition duration-300 2xl:top-177 xl:top-55 lg:top-189 md:top-160 sm:top-455 sm:w-170 sm:h-65 bg-[#000061] 2xl:w-103 2xl:h-45 xl:w-90 xl:h-45 lg:w-113 lg:h-45 md:w-93 md:h-35 rounded-b-2xl text-sm border-l-2 border-r-2 border-b-2 border-[#1dd2af]">
           <div className="2xl:mt-5 2xl:ml-2 sm:ml-5 sm:mt-2 md:ml-0.5">
             <p className="2xl:ml-3 2xl:mt-2 font-bold 2xl:text-xl xl:text-xl md:text-lg xl:mt-4 xl:ml-5 lg:text-lg lg:ml-4 lg:mt-4 md:ml-4 md:mt-2 md:mb-1 sm:text-2xl sm:mb-17 sm:mt-3">
               {movieData?.title?.[2]?.title} ({movieData?.title?.[2]?.released})
