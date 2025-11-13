@@ -20,7 +20,7 @@ export default function Page() {
           </div>
         </div>
       </div>
-      <div className="grid 2xl:-mt-285 2xl:ml-5 xl:-mt-170 xl:ml-12 lg:-mt-165 lg:ml-0 md:-mt-170">
+      <div className="grid 2xl:-mt-285 2xl:ml-5 xl:-mt-170 xl:ml-12 lg:-mt-165 lg:ml-0 md:-mt-50">
         <MovieTiles />
       </div>
     </div>

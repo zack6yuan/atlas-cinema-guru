@@ -29,18 +29,11 @@ export default function Genres() {
     changeTextColor();
   };
 
-  // const fetchGenres = async () => {
-  //     const response = await fetch('/api/genres');
-  //     const data = await response.json();
-  //     console.log(data);
-  // }
-  // fetchGenres();
-
   useEffect(() => {
     const fetchGenres = async () => {
       const response = await fetch("api/genres");
       if (!response) {
-        console.error('Error fetching Genres...')
+        console.error('Error fetching genres...')
       } else {
         const data = await response.json();
         console.log(data);
