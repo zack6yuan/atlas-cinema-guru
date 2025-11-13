@@ -4,8 +4,8 @@ import clock from "../../assets/clock.png";
 
 export default function SideBar() {
   return (
-    <div className="bg-teal-500 h-full w-25 hover:w-60 fixed left-0 mt-30 group z-50">
-      <div className="mt-5 ml-9 text-left">
+    <div className=" bg-teal-500 h-full sm:block sm:w-full sm:h-18 md:w-25 sm:-mt-189 md:hover:w-60 fixed left-0 mt-30 group z-50">
+      <div className="sm:ml-6 md:mt-5 md:ml-9 text-left">
         <div className="mb-5 hover:translate-x-5 transition duration-200">
           <a href="/">
             <img src={folder.src} alt="folder-icon" className="w-6 h-6" />
@@ -25,7 +25,7 @@ export default function SideBar() {
           </a>
         </div>
       </div>
-      <div className="latest-activities bg-teal-400 text-center h-full pt-3 ml-5 mr-5 rounded-lg opacity-0 group-hover:opacity-100">
+      <div className="latest-activities bg-teal-400 text-center sm:hidden md:block h-full pt-3 ml-5 mr-5 rounded-lg opacity-0 group-hover:opacity-100">
         <p className="pb-3">Latest Activities</p>
         <p className="text-left ml-2 mr-2">10/2/1014, 5:11:17 PM Added <span className="font-bold">Before the Dawn</span> to watch later</p>
       </div>

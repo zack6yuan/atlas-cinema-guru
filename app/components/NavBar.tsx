@@ -12,7 +12,7 @@ export default async function NavBar() {
         <a href="/">
           <div className="flex md:w-50">
             <img src={film.src} className="2xl:h-6 2xl:w-6 2xl:mr-2 2xl:mt-1 xl:h-6 xl:w-6 xl:mt-1 xl:mr-2 lg:h-6 lg:w-6 lg:mt-1 lg:mr-2 md:w-6 md:h-6 md:mt-1 md:mr-2 sm:w-6 sm:h-6 sm:mr-2 sm:mt-0.5 w-6 h-6 mr-2 mt-0.5" alt="" />
-            <h1 className="2xl:text-2xl xl:text-2xl lg:text-2xl md:text-2xl sm:text-xl text-xl sm:w-37 font-bold lg:text-red-500 xl:text-blue-500">Cinema Guru</h1>
+            <h1 className="2xl:text-2xl xl:text-2xl lg:text-2xl md:text-2xl sm:text-xl text-xl sm:w-37 font-bold lg:text-purple-500 xl:text-blue-500">Cinema Guru</h1>
           </div>
         </a>
       </div>

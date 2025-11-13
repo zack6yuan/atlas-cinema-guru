@@ -12,7 +12,7 @@ export default function Page() {
         <NavBar />
         <SideBar />
         <div className="flex justify-between w-full xl:ml-35 xl:mr-10 xl:-mt-185 lg:-mt-185 md:scale-95 md:-mt-155">
-          <div className="2xl:mt-35 xl:mt-35 xl:ml-0 lg:mt-35 lg:ml-35 md:ml-35">
+          <div className="2xl:mt-35 xl:mt-35 xl:ml-0 lg:mt-35 lg:ml-35 md:ml-35 md:mr-5">
             <Search />
           </div>
           <div className="2xl:mt-35 2xl:mr-0 xl:mt-35 xl:mr-1 lg:mt-35 lg:mr-10">
@@ -20,7 +20,7 @@ export default function Page() {
           </div>
         </div>
       </div>
-      <div className="grid 2xl:-mt-285 2xl:-ml-5 xl:-mt-265 xl:ml-5 lg:-mt-165 lg:ml-10 md:-mt-170">
+      <div className="grid 2xl:-mt-285 2xl:ml-5 xl:-mt-170 xl:ml-12 lg:-mt-165 lg:ml-0 md:-mt-170">
         <MovieTiles />
       </div>
     </div>
