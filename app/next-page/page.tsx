@@ -1,11 +1,10 @@
 // Home Page
-import NavBar from "./components/NavBar";
-import Search from "./components/Search";
-import SideBar from "./components/SideBar";
-import Genres from "./components/Genres";
-import MovieTiles from "./components/MovieTiles";
-import PaginationButtons from './components/PaginationButtons';
-import PaginatedMovieTiles from "./components/PaginatedMovieTiles";
+import NavBar from "../components/NavBar";
+import Search from "../components/Search";
+import SideBar from "../components/SideBar";
+import Genres from "../components/Genres";
+import PaginationButtons from '../components/PaginationButtons';
+import PaginatedMovieTiles from "../components/PaginatedMovieTiles";
 
 export default function Page() {
   return (
@@ -23,7 +22,7 @@ export default function Page() {
         </div>
       </div>
       <div className="grid 2xl:-mt-295 2xl:ml-5 xl:-mt-60 xl:ml-12 lg:ml-0 md:-mt-50">
-        <MovieTiles />
+        <PaginatedMovieTiles />
       </div>
       <div className="flex items-center justify-center sm:mt-15 sm:-ml-10 sm:mb-15 md:ml-20 lg:-ml-5 xl:ml-8 2xl:ml-20 2xl:-mt-10">
         <PaginationButtons />
