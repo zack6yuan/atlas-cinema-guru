@@ -24,7 +24,7 @@ export default function Page() {
       <div className="grid 2xl:-mt-295 2xl:ml-5 xl:-mt-60 xl:ml-12 lg:ml-0 md:-mt-50">
         <PaginatedMovieTiles />
       </div>
-      <div className="flex items-center justify-center sm:mt-15 sm:-ml-10 sm:mb-15 md:ml-20 lg:-ml-5 xl:ml-8 xl:-mt-25 2xl:ml-20 2xl:-mt-10">
+      <div className="flex items-center justify-center sm:mt-15 sm:-ml-10 sm:mb-15 md:ml-20 lg:-ml-5 xl:ml-8 xl:-mt-25 2xl:ml-20 2xl:-mt-100">
         <PaginationButtons />
       </div>
     </div>

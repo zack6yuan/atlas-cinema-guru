@@ -48,7 +48,7 @@ export default function MovieTiles() {
         <div className="absolute opacity-0 group-hover:opacity-100 transition duration-300 sm:top-1 md:-left-75 md:top-0 lg:-left-55 lg:top-1 xl:-left-77 xl:-top-44 2xl:top-25 2xl:-left-65">
           <ButtonOptions />
         </div>
-        <div className="absolute opacity-0 group-hover:opacity-100 transition duration-300 2xl:top-83 xl:top-2 lg:top-70 md:top-58 sm:top-105 sm:w-170 sm:h-65 bg-[#000061] 2xl:w-103 2xl:h-45 xl:w-90 xl:h-45 lg:w-113 lg:h-45 md:w-93 md:h-35 rounded-b-2xl text-sm border-l-2 border-r-2 border-b-2 border-[#1dd2af]">
+        <div className="absolute opacity-0 group-hover:opacity-100 transition duration-300 2xl:top-83 xl:top-2 lg:top-68 md:top-58 sm:top-105 sm:w-170 sm:h-65 bg-[#000061] 2xl:w-103 2xl:h-45 xl:w-90 xl:h-45 lg:w-113 lg:h-45 md:w-93 md:h-35 rounded-b-2xl text-sm border-l-2 border-r-2 border-b-2 border-[#1dd2af]">
           <div className="2xl:mt-5 2xl:ml-2 sm:ml-5 sm:mt-2 md:ml-0.5">
             <p className="2xl:ml-3 2xl:mt-2 font-bold 2xl:text-xl xl:text-xl md:text-lg xl:mt-4 xl:ml-5 lg:text-lg lg:ml-4 lg:mt-4 md:ml-4 md:mt-2 md:mb-1 sm:text-2xl sm:mb-10 sm:mt-3">
               {movieData?.title?.[4]?.title} ({movieData?.title?.[4]?.released})
@@ -71,7 +71,7 @@ export default function MovieTiles() {
         <div className="absolute opacity-0 group-hover:opacity-100 transition duration-300 sm:top-176 md:left-33 md:top-0 lg:top-1 lg:left-72 xl:-top-44 xl:left-33 2xl:left-63 2xl:top-25">
           <ButtonOptions />
         </div>
-        <div className="absolute opacity-0 group-hover:opacity-100 transition duration-300 2xl:top-83 2xl:left-128 xl:top-2 xl:left-110 lg:top-70 lg:left-127 md:top-58 sm:top-280 sm:w-170 sm:h-65 bg-[#000061] 2xl:w-103 2xl:h-45 xl:w-90 xl:h-45 lg:w-113 lg:h-45 md:w-93 md:h-35 rounded-b-2xl text-sm border-l-2 border-r-2 border-b-2 border-[#1dd2af]">
+        <div className="absolute opacity-0 group-hover:opacity-100 transition duration-300 2xl:top-83 2xl:left-128 xl:top-2 xl:left-110 lg:top-68 lg:left-127 md:top-58 sm:top-280 sm:w-170 sm:h-65 bg-[#000061] 2xl:w-103 2xl:h-45 xl:w-90 xl:h-45 lg:w-113 lg:h-45 md:w-93 md:h-35 rounded-b-2xl text-sm border-l-2 border-r-2 border-b-2 border-[#1dd2af]">
           <div className="2xl:mt-5 2xl:ml-2 sm:ml-5 sm:mt-2 md:ml-0.5">
             <p className="2xl:ml-3 2xl:mt-2 font-bold 2xl:text-xl xl:text-xl md:text-lg xl:mt-4 xl:ml-5 lg:text-lg lg:ml-4 lg:mt-4 md:ml-4 md:mt-2 md:mb-1 sm:text-2xl sm:mb-10 sm:mt-3">
               {movieData?.title?.[5]?.title} ({movieData?.title?.[4]?.released})
@@ -114,10 +114,10 @@ export default function MovieTiles() {
           alt="placeholder image"
           className="rounded-2xl border-2 border-[#1dd2af] xl:-mt-89 2xl:-mt-235"
         />
-        <div className="absolute opacity-0 group-hover:opacity-100 transition duration-300 sm:top-526 md:left-31 md:top-103 lg:left-73 lg:top-120 xl:-left-77 xl:top-53 2xl:top-135 2xl:-left-65">
+        <div className="absolute opacity-100 group-hover:opacity-100 transition duration-300 sm:top-526 md:left-31 md:top-103 lg:left-73 lg:top-120 xl:-left-77 xl:top-53 2xl:top-135 2xl:-left-65">
           <ButtonOptions />
         </div>
-        <div className="absolute opacity-0 group-hover:opacity-100 transition duration-300 2xl:top-192 xl:top-104 lg:top-190 md:top-170 sm:top-630 sm:w-170 sm:h-65 bg-[#000061] 2xl:w-103 2xl:h-45 xl:w-90 xl:h-45 lg:w-113 lg:h-45 md:w-93 md:h-35 rounded-b-2xl text-sm border-l-2 border-r-2 border-b-2 border-[#1dd2af]">
+        <div className="absolute opacity-0 group-hover:opacity-100 transition duration-300 2xl:top-192 xl:top-97 lg:top-190 md:top-170 sm:top-630 sm:w-170 sm:h-65 bg-[#000061] 2xl:w-103 2xl:h-45 xl:w-90 xl:h-45 lg:w-113 lg:h-45 md:w-93 md:h-35 rounded-b-2xl text-sm border-l-2 border-r-2 border-b-2 border-[#1dd2af]">
           <div className="2xl:mt-5 2xl:ml-2 sm:ml-5 sm:mt-2 md:ml-0.5">
             <p className="2xl:ml-3 2xl:mt-2 font-bold 2xl:text-xl xl:text-xl md:text-lg xl:mt-4 xl:ml-5 lg:text-lg lg:ml-4 lg:mt-4 md:ml-4 md:mt-2 md:mb-1 sm:text-2xl sm:mb-10 sm:mt-3">
               {movieData?.title?.[3]?.title} ({movieData?.title?.[3]?.released})
@@ -135,12 +135,12 @@ export default function MovieTiles() {
         <img
           src={movieData?.title?.[0]?.image}
           alt="placeholder image"
-          className="rounded-2xl border-2 border-[#1dd2af] xl:-mt-89 2xl:-mt-235"
+          className="rounded-2xl border-2 border-[#1dd2af] xl:-mt-89 2xl:-mt-235 lg:-mt-20"
         />
         <div className="absolute opacity-0 group-hover:opacity-100 transition duration-300 sm:top-701 md:-left-75 md:top-216 lg:-left-55 lg:top-242 xl:left-31 xl:top-53 2xl:top-135 2xl:left-63">
           <ButtonOptions />
         </div>
-        <div className="absolute opacity-0 group-hover:opacity-100 transition duration-300 2xl:top-192 xl:top-104 lg:top-310 md:top-272 sm:top-805 sm:w-170 sm:h-65 bg-[#000061] 2xl:w-103 2xl:h-45 xl:w-90 xl:h-45 lg:w-113 lg:h-45 md:w-93 md:h-35 rounded-b-2xl text-sm border-l-2 border-r-2 border-b-2 border-[#1dd2af]">
+        <div className="absolute opacity-0 group-hover:opacity-100 transition duration-300 2xl:top-192 xl:top-97 lg:top-310 md:top-272 sm:top-805 sm:w-170 sm:h-65 bg-[#000061] 2xl:w-103 2xl:h-45 xl:w-90 xl:h-45 lg:w-113 lg:h-45 md:w-93 md:h-35 rounded-b-2xl text-sm border-l-2 border-r-2 border-b-2 border-[#1dd2af]">
           <div className="2xl:mt-5 2xl:ml-2 sm:ml-5 sm:mt-2 md:ml-0.5">
             <p className="2xl:ml-3 2xl:mt-2 font-bold 2xl:text-xl xl:text-xl md:text-lg xl:mt-4 xl:ml-5 lg:text-lg lg:ml-4 lg:mt-4 md:ml-4 md:mt-2 md:mb-1 sm:text-2xl sm:mb-10 sm:mt-3">
               {movieData?.title?.[0]?.title} ({movieData?.title?.[0]?.released})
@@ -163,7 +163,7 @@ export default function MovieTiles() {
         <div className="absolute opacity-0 group-hover:opacity-100 transition duration-300 sm:top-876 md:left-31 md:top-216 lg:left-72 lg:top-242 xl:left-142 xl:top-53 2xl:top-135 2xl:left-190">
           <ButtonOptions />
         </div>
-        <div className="absolute opacity-0 group-hover:opacity-100 transition duration-300 2xl:top-192 xl:top-104 lg:top-310 md:top-272 sm:top-980 sm:w-170 sm:h-65 bg-[#000061] 2xl:w-103 2xl:h-45 xl:w-90 xl:h-45 lg:w-113 lg:h-45 md:w-93 md:h-35 rounded-b-2xl text-sm border-l-2 border-r-2 border-b-2 border-[#1dd2af]">
+        <div className="absolute opacity-0 group-hover:opacity-100 transition duration-300 2xl:top-192 xl:top-97 lg:top-310 md:top-272 sm:top-980 sm:w-170 sm:h-65 bg-[#000061] 2xl:w-103 2xl:h-45 xl:w-90 xl:h-45 lg:w-113 lg:h-45 md:w-93 md:h-35 rounded-b-2xl text-sm border-l-2 border-r-2 border-b-2 border-[#1dd2af]">
           <div className="2xl:mt-5 2xl:ml-2 sm:ml-5 sm:mt-2 md:ml-0.5">
             <p className="2xl:ml-3 2xl:mt-2 font-bold 2xl:text-xl xl:text-xl md:text-lg xl:mt-4 xl:ml-5 lg:text-lg lg:ml-4 lg:mt-4 md:ml-4 md:mt-2 md:mb-1 sm:text-2xl sm:mb-10 sm:mt-3">
               {movieData?.title?.[1]?.title} ({movieData?.title?.[1]?.released})
