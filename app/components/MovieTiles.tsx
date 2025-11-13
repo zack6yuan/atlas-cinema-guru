@@ -42,6 +42,9 @@ export default function MovieTiles() {
           alt="placeholder image"
           className="rounded-2xl border-2 border-[#1dd2af]"
         />
+        <div className="absolute opacity-0 group-hover:opacity-100 transition duration-300 sm:top-1 md:-left-75 md:-top-1 lg:-left-55 xl:-left-77 xl:top-8 2xl:top-120 2xl:-left-65">
+          <ButtonOptions />
+        </div>
         <div className="absolute opacity-0 group-hover:opacity-100 transition duration-300 2xl:top-177 xl:top-55 lg:top-68 md:top-58 sm:top-105 sm:w-170 sm:h-65 bg-[#000061] 2xl:w-103 2xl:h-45 xl:w-90 xl:h-45 lg:w-113 lg:h-45 md:w-93 md:h-35 rounded-b-2xl text-sm border-l-2 border-r-2 border-b-2 border-[#1dd2af]">
           <div className="2xl:mt-5 2xl:ml-2 sm:ml-5 sm:mt-2 md:ml-0.5">
             <p className="2xl:ml-3 2xl:mt-2 font-bold 2xl:text-xl xl:text-xl md:text-lg xl:mt-4 xl:ml-5 lg:text-lg lg:ml-4 lg:mt-4 md:ml-4 md:mt-2 md:mb-1 sm:text-2xl sm:mb-10 sm:mt-3">
@@ -62,7 +65,10 @@ export default function MovieTiles() {
           alt="placeholder image"
           className="rounded-2xl border-2 border-[#1dd2af]"
         />
-        <div className="absolute opacity-0 group-hover:opacity-100 transition duration-300 2xl:top-177 xl:top-55 lg:top-68 md:top-58 sm:top-280 sm:w-170 sm:h-65 bg-[#000061] 2xl:w-103 2xl:h-45 xl:w-90 xl:h-45 lg:w-113 lg:h-45 md:w-93 md:h-35 rounded-b-2xl text-sm border-l-2 border-r-2 border-b-2 border-[#1dd2af]">
+        <div className="absolute opacity-0 group-hover:opacity-100 transition duration-300 sm:top-176 md:left-33 md:-top-1 lg:left-72 xl:top-8 xl:left-33 2xl:left-63 2xl:top-120">
+          <ButtonOptions />
+        </div>
+        <div className="absolute opacity-0 group-hover:opacity-100 transition duration-300 2xl:top-177 2xl:left-128 xl:top-55 xl:left-110 lg:top-68 lg:left-127 md:top-58 sm:top-280 sm:w-170 sm:h-65 bg-[#000061] 2xl:w-103 2xl:h-45 xl:w-90 xl:h-45 lg:w-113 lg:h-45 md:w-93 md:h-35 rounded-b-2xl text-sm border-l-2 border-r-2 border-b-2 border-[#1dd2af]">
           <div className="2xl:mt-5 2xl:ml-2 sm:ml-5 sm:mt-2 md:ml-0.5">
             <p className="2xl:ml-3 2xl:mt-2 font-bold 2xl:text-xl xl:text-xl md:text-lg xl:mt-4 xl:ml-5 lg:text-lg lg:ml-4 lg:mt-4 md:ml-4 md:mt-2 md:mb-1 sm:text-2xl sm:mb-10 sm:mt-3">
               {movieData?.title?.[1]?.title} ({movieData?.title?.[1]?.released})
@@ -82,6 +88,9 @@ export default function MovieTiles() {
           alt="placeholder image"
           className="rounded-2xl border-2 border-[#1dd2af]"
         />
+        <div className="absolute opacity-0 group-hover:opacity-100 transition duration-300 sm:top-351 md:-left-75 md:top-101 lg:-left-55 lg:top-120 xl:top-8 xl:left-143 2xl:left-190 2xl:top-120">
+          <ButtonOptions />
+        </div>
         <div className="absolute opacity-0 group-hover:opacity-100 transition duration-300 2xl:top-177 xl:top-55 lg:top-189 md:top-160 sm:top-455 sm:w-170 sm:h-65 bg-[#000061] 2xl:w-103 2xl:h-45 xl:w-90 xl:h-45 lg:w-113 lg:h-45 md:w-93 md:h-35 rounded-b-2xl text-sm border-l-2 border-r-2 border-b-2 border-[#1dd2af]">
           <div className="2xl:mt-5 2xl:ml-2 sm:ml-5 sm:mt-2 md:ml-0.5">
             <p className="2xl:ml-3 2xl:mt-2 font-bold 2xl:text-xl xl:text-xl md:text-lg xl:mt-4 xl:ml-5 lg:text-lg lg:ml-4 lg:mt-4 md:ml-4 md:mt-2 md:mb-1 sm:text-2xl sm:mb-17 sm:mt-3">
@@ -102,6 +111,9 @@ export default function MovieTiles() {
           alt="placeholder image"
           className="rounded-2xl border-2 border-[#1dd2af]"
         />
+        <div className="absolute opacity-0 group-hover:opacity-100 transition duration-300 sm:top-526 md:top-101 md:left-33 lg:left-72 lg:top-120 xl:top-100 xl:-ml-150 2xl:left-85 2xl:top-225">
+          <ButtonOptions />
+        </div>
         <div className="absolute opacity-0 group-hover:opacity-100 transition duration-300 2xl:top-284 xl:top-148 lg:top-189 md:top-160 sm:top-630 sm:w-170 sm:h-65 bg-[#000061] 2xl:w-103 2xl:h-45 xl:w-90 xl:h-45 lg:w-113 lg:h-45 md:w-93 md:h-35 rounded-b-2xl text-sm border-l-2 border-r-2 border-b-2 border-[#1dd2af]">
           <div className="2xl:mt-5 2xl:ml-2 sm:ml-5 sm:mt-2 md:ml-0.5">
             <p className="2xl:ml-3 2xl:mt-2 font-bold 2xl:text-xl xl:text-xl md:text-lg xl:mt-4 xl:ml-5 lg:text-lg lg:ml-4 lg:mt-4 md:ml-4 md:mt-2 md:mb-1 sm:text-2xl sm:mb-17 sm:mt-3">
@@ -122,6 +134,9 @@ export default function MovieTiles() {
           alt="placeholder image"
           className="rounded-2xl border-2 border-[#1dd2af]"
         />
+        <div className="group absolute opacity-0 group-hover:opacity-100 transition duration-300 sm:top-701 md:-left-75 md:top-204 lg:-left-55 lg:top-242 xl:top-100 xl:left-33 2xl:left-65 2xl:top-225">
+          <ButtonOptions />
+        </div>
         <div className="absolute opacity-0 group-hover:opacity-100 transition duration-300 2xl:top-284 xl:top-148 lg:top-310 md:top-262 sm:top-805 sm:w-170 sm:h-65 bg-[#000061] 2xl:w-103 2xl:h-45 xl:w-90 xl:h-45 lg:w-113 lg:h-45 md:w-93 md:h-35 rounded-b-2xl text-sm border-l-2 border-r-2 border-b-2 border-[#1dd2af]">
           <div className="2xl:mt-5 2xl:ml-2 sm:ml-5 sm:mt-2 md:ml-0.5">
             <p className="2xl:ml-3 2xl:mt-2 font-bold 2xl:text-xl xl:text-xl md:text-lg xl:mt-4 xl:ml-5 lg:text-lg lg:ml-4 lg:mt-4 md:ml-4 md:mt-2 md:mb-1 sm:text-2xl sm:mb-10 sm:mt-3">
@@ -142,6 +157,9 @@ export default function MovieTiles() {
           alt="placeholder image"
           className="rounded-2xl border-2 border-[#1dd2af]"
         />
+        <div className="group absolute opacity-0 group-hover:opacity-100 transition duration-300 sm:top-876 md:left-33 md:top-204 lg:left-72 lg:top-242 xl:top-100 xl:left-145 2xl:left-190 2xl:top-225">
+          <ButtonOptions />
+        </div>
         <div className="group opacity-0 group-hover:opacity-100 transition duration-300">
         </div>
         <div className="absolute opacity-0 group-hover:opacity-100 transition duration-300 2xl:top-284 xl:top-148 lg:top-310 md:top-262 sm:top-980 sm:w-170 sm:h-65 bg-[#000061] 2xl:w-103 2xl:h-45 xl:w-90 xl:h-45 lg:w-113 lg:h-45 md:w-93 md:h-35 rounded-b-2xl text-sm border-l-2 border-r-2 border-b-2 border-[#1dd2af]">
