@@ -140,7 +140,7 @@ export default function MovieTiles() {
         <div className="group absolute opacity-0 group-hover:opacity-100 transition duration-300 sm:top-701 md:-left-75 md:top-204 lg:-left-55 lg:top-242 xl:top-100 xl:left-33 2xl:left-65 2xl:top-225">
           <ButtonOptions />
         </div>
-        <div className="absolute opacity-0 group-hover:opacity-100 transition duration-300 2xl:top-284 xl:top-148 lg:top-310 md:top-262 sm:top-805 sm:w-170 sm:h-65 bg-[#000061] 2xl:w-103 2xl:h-45 xl:w-90 xl:h-45 lg:w-113 lg:h-45 md:w-93 md:h-35 rounded-b-2xl text-sm border-l-2 border-r-2 border-b-2 border-[#1dd2af]">
+        <div className="absolute opacity-100 group-hover:opacity-100 transition duration-300 2xl:top-284 xl:top-148 lg:top-310 md:top-262 sm:top-805 sm:w-170 sm:h-65 bg-[#000061] 2xl:w-103 2xl:h-45 xl:w-90 xl:h-45 lg:w-113 lg:h-45 md:w-93 md:h-35 rounded-b-2xl text-sm border-l-2 border-r-2 border-b-2 border-[#1dd2af]">
           <div className="2xl:mt-5 2xl:ml-2 sm:ml-5 sm:mt-2 md:ml-0.5">
             <p className="2xl:ml-3 2xl:mt-2 font-bold 2xl:text-xl xl:text-xl md:text-lg xl:mt-4 xl:ml-5 lg:text-lg lg:ml-4 lg:mt-4 md:ml-4 md:mt-2 md:mb-1 sm:text-2xl sm:mb-10 sm:mt-3">
               {movieData?.title?.[4]?.title} ({movieData?.title?.[4]?.released})
@@ -148,7 +148,7 @@ export default function MovieTiles() {
             <p className="2xl:ml-3 2xl:mt-1 2xl:mr-3 2xl:text-lg xl:ml-5 xl:mr-3 xl:mt-3 xl:text-md lg:text-md lg:ml-4 lg:mr-5 lg:mt-5 md:ml-4 md:mr-4 md:text-sm font-light sm:text-xl sm:mr-5 sm:mb-16">
               {movieData?.title?.[4]?.synopsis}
             </p>
-            <p className="bg-[#1dd2af] rounded-4xl 2xl:mr-102 2xl:ml-2 2xl:-mt-11 2xl:p-2 2xl:w-14 xl:-mt-8 xl:p-2 xl:w-14 xl:ml-4 lg:w-13 lg:ml-4 lg:-mt-10 lg:p-2 md:w-13 md:p-2 md:ml-4 md:-mt-13 sm:p-2 sm:w-13 font-light text-xs">
+            <p className="bg-[#1dd2af] rounded-4xl 2xl:mr-102 2xl:ml-2 2xl:-mt-11 2xl:p-2 2xl:w-15 xl:-mt-8 xl:p-2 xl:w-15 xl:ml-4 lg:w-15 lg:ml-4 lg:-mt-10 lg:p-2 md:w-15 md:p-2 md:ml-4 md:-mt-13 sm:p-2 sm:w-15 font-light text-xs">
               {movieData?.title?.[4]?.genre}
             </p>
           </div>
