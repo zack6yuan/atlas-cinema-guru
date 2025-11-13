@@ -158,7 +158,6 @@ export default function MovieTiles() {
           className="rounded-2xl border-2 border-[#1dd2af]"
         />
         <div className="group opacity-0 group-hover:opacity-100 transition duration-300">
-          <ButtonOptions />
         </div>
         <div className="absolute opacity-0 group-hover:opacity-100 transition duration-300 2xl:top-284 xl:top-148 lg:top-310 md:top-262 sm:top-980 sm:w-170 sm:h-65 bg-[#000061] 2xl:w-103 2xl:h-45 xl:w-90 xl:h-45 lg:w-113 lg:h-45 md:w-93 md:h-35 rounded-b-2xl text-sm border-l-2 border-r-2 border-b-2 border-[#1dd2af]">
           <div className="2xl:mt-5 2xl:ml-2 sm:ml-5 sm:mt-2 md:ml-0.5">
